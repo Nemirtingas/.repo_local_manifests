@@ -38,7 +38,7 @@
         <project path="external/stlport"                   name="android_external_stlport"               remote="LineageOS" revision="cm-13.0"    />
         <project path="external/sony/boringssl-compat"     name="android_external_sony_boringssl-compat" remote="LineageOS" revision="cm-13.0"    />
         <project path="hardware/qcom/audio"                name="android_hardware_qcom_audio"            remote="LineageOS" revision="cm-13.0"    />
-        <project path="android/vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm"     remote="LineageOS" revision="cm-13.0"    />-->
+        <project path="android/vendor/qcom/opensource/dpm" name="android_vendor_qcom_opensource_dpm"     remote="LineageOS" revision="cm-13.0"    />
         <!--<project path="hardware/qcom/gps"              name="android_hardware_qcom_gps"              remote="LineageOS" revision="cm-13.0"    />-->
         <!--<project path="hardware/qcom/wlan"             name="android_hardware_qcom_wlan"             remote="LineageOS" revision="cm-13.0"    />-->
 
