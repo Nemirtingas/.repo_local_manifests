@@ -1,35 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <!--
-        <remote name="MSM8226-Samsung" fetch="https://github.com/MSM8226-Samsung/" />
-        <remote name="CyanogenMod"     fetch="https://github.com/CyanogenMod/"     />
-        <remote name="LineageOS"       fetch="https://github.com/LineageOS/"       />
-        <remote name="TWRP"            fetch="https://github.com/omnirom/"         />
-        <project path="device/samsung/qcom-common"     name="android_device_samsung_qcom-common"     remote="LineageOS"     revision="cm-13.0"     />
-        <project path="device/qcom/common"             name="android_device_qcom_common"             remote="LineageOS"     revision="cm-13.0"     />
-        <project path="external/busybox"               name="android_external_busybox"               remote="LineageOS"     revision="cm-13.0"     />
-        <project path="external/stlport"               name="android_external_stlport"               remote="LineageOS"     revision="cm-13.0"     />
-        <project path="external/sony/boringssl-compat" name="android_external_sony_boringssl-compat" remote="LineageOS"     revision="cm-13.0"     />
-        #<project path="device/samsung/msm8226-common"  name="android_device_samsung_msm8226-common"  remote="LineageOS"     revision="cm-13.0"     />
-        #<project path="hardware/qcom/audio"            name="android_hardware_qcom_audio"            remote="LineageOS" revision="cm-13.0"     />
-
-        #<project path="external/busybox"               name="android_external_busybox"               remote="TWRP"            revision="android-6.0" />
-        <project path="bootable/recovery-twrp"         name="android_bootable_recovery"              remote="TWRP"            revision="android-6.0" />
-
-        <project path="kernel/samsung/msm8226"         name="kernel_samsung_msm8226"                 remote="MSM8226-Samsung" revision="common"      />
-        <project path="device/samsung/msm8226-common"  name="android_device_samsung_msm8226-common"  remote="MSM8226-Samsung" revision="cm-13.0"     />
-        <project path="hardware/qcom/audio"            name="android_hardware_qcom_audio"            remote="MSM8226-Samsung" revision="cm-13.0"     />
-        <project path="device/samsung/ms01-common"     name="android_device_samsung_ms01-common"     remote="MSM8226-Samsung" revision="cm-13.0"     />
-        <project path="vendor/samsung/ms01-common"     name="android_vendor_samsung_ms01-common"     remote="MSM8226-Samsung" revision="cm-13.0"     />
-        <project path="kernel/samsung/ms013g"          name="android_kernel_samsung_ms013g"          remote="MSM8226-Samsung" revision="cm-13.0"     />
-        <project path="device/samsung/ms013g"          name="android_device_samsung_ms013g"          remote="MSM8226-Samsung" revision="cm-13.0"     />
-        <project path="vendor/samsung/ms013g"          name="android_vendor_samsung_ms013g"          remote="MSM8226-Samsung" revision="cm-13.0"     />
-        <project path="kernel/samsung/ms01lte"         name="android_kernel_samsung_ms01lte"         remote="MSM8226-Samsung" revision="cm-13.0"     />
-        <project path="device/samsung/ms01lte"         name="android_device_samsung_ms01lte"         remote="MSM8226-Samsung" revision="cm-13.0"     />
-        -->
-        <remote name="Nemirtingas" fetch="https://github.com/Nemirtingas/"/>
-        <remote name="LineageOS"   fetch="https://github.com/LineageOS/"  />
-        <remote name="TWRP"        fetch="https://github.com/omnirom/"    />
+        <remote name="Nemirtingas" fetch="https://github.com/Nemirtingas/"       />
+        <remote name="LineageOS"   fetch="https://github.com/LineageOS/"         />
+        <remote name="TWRP"        fetch="https://github.com/omnirom/"           />
 
         <project path="hardware/samsung"                   name="android_hardware_samsung"               remote="LineageOS" revision="cm-13.0"    />
         <project path="device/samsung/qcom-common"         name="android_device_samsung_qcom-common"     remote="LineageOS" revision="cm-13.0"    />
@@ -38,24 +11,18 @@
         <project path="external/stlport"                   name="android_external_stlport"               remote="LineageOS" revision="cm-13.0"    />
         <project path="external/sony/boringssl-compat"     name="android_external_sony_boringssl-compat" remote="LineageOS" revision="cm-13.0"    />
         <project path="hardware/qcom/audio"                name="android_hardware_qcom_audio"            remote="LineageOS" revision="cm-13.0"    />
-        <project path="android/vendor/qcom-opensource/dpm" name="android_vendor_qcom_opensource_dpm"     remote="LineageOS" revision="cm-13.0"    />
-        <!--<project path="hardware/qcom/gps"              name="android_hardware_qcom_gps"              remote="LineageOS" revision="cm-13.0"    />-->
-        <!--<project path="hardware/qcom/wlan"             name="android_hardware_qcom_wlan"             remote="LineageOS" revision="cm-13.0"    />-->
 
         <!--<project path="external/busybox"               name="android_external_busybox_twrp"         remote="TWRP" revision="cm-13.0"    />-->
         <project path="bootable/recovery-twrp"         name="android_bootable_recovery"              remote="TWRP" revision="android-6.0"/>
 
-        <project path="kernel/samsung/msm8226"         name="kernel_samsung_msm8226"                 remote="Nemirtingas" revision="common"     />
-        <project path="kernel/samsung/ms013g"          name="android_kernel_samsung_ms013g-1"        remote="Nemirtingas" revision="lineage-14.1"    />
+        <project path="kernel/samsung/ms013g"          name="android_kernel_samsung_ms013g"          remote="Nemirtingas" revision="cm-13.0"    />
         <project path="kernel/samsung/ms01lte"         name="android_kernel_samsung_ms01lte"         remote="Nemirtingas" revision="cm-13.0"    />
 
-        <!--<project path="device/samsung/msm8226-common"  name="android_device_samsung_msm8226-common_los"  remote="LineageOS" revision="cm-13.0"    />-->
+        <!--<project path="device/samsung/msm8226-common"  name="android_device_samsung_msm8226-common"  remote="LineageOS" revision="cm-13.0"    />-->
         <project path="device/samsung/msm8226-common"  name="android_device_samsung_msm8226-common"  remote="LineageOS"   revision="cm-13.0"    />
         <project path="device/samsung/ms01-common"     name="android_device_samsung_ms01-common"     remote="Nemirtingas" revision="cm-13.0"    />
-        <project path="device/samsung/ms013g"          name="android_device_samsung_ms013g"          remote="Nemirtingas" revision="cm-13.0"    />
         <project path="device/samsung/ms01lte"         name="android_device_samsung_ms01lte"         remote="Nemirtingas" revision="cm-13.0"    />
 
         <project path="vendor/samsung/ms01-common"     name="android_vendor_samsung_ms01-common"     remote="Nemirtingas" revision="cm-13.0"    />
-        <project path="vendor/samsung/ms013g"          name="android_vendor_samsung_ms013g"          remote="Nemirtingas" revision="cm-13.0"    />
         <project path="vendor/samsung/ms01lte"         name="android_vendor_samsung_ms01lte"         remote="Nemirtingas" revision="cm-13.0"    />
 </manifest>
