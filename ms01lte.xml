@@ -14,8 +14,8 @@
         <project path="packages/resources/devicesettings"    name="android_packages_resources_devicesettings"    remote="LineageOS" revision="cm-14.1"    />
 
 
-        <!--<project path="external/busybox"               name="android_external_busybox_twrp"         remote="TWRP" revision="cm-13.0"    />-->
-        <!--<project path="bootable/recovery-twrp"         name="android_bootable_recovery"              remote="TWRP" revision="android-7.1"/>-->
+        <project path="external/busybox"               name="android_external_busybox_twrp"        remote="TWRP" revision="android-7.1"/>
+        <project path="bootable/recovery-twrp"         name="android_bootable_recovery"            remote="TWRP" revision="android-7.1"/>
 
         <project path="kernel/samsung/ms01lte"        name="android_kernel_samsung_ms01lte"        remote="Nemirtingas" revision="lineage-14.1"    />
 
