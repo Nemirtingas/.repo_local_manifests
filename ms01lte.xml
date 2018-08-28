@@ -3,6 +3,7 @@
         <remote name="Nemirtingas" fetch="https://github.com/Nemirtingas9/"      />
         <remote name="LineageOS"   fetch="https://github.com/LineageOS/"         />
         <remote name="TWRP"        fetch="https://github.com/omnirom/"           />
+        <remote name="CODEAURORA"  fecth="https://source.codeaurora.org/quic/la/"/>
 
         <project path="hardware/samsung"                     name="android_hardware_samsung"                     remote="LineageOS" revision="cm-14.1"    />
         <project path="device/samsung/qcom-common"           name="android_device_samsung_qcom-common"           remote="LineageOS" revision="cm-14.1"    />
@@ -13,6 +14,10 @@
         <project path="hardware/qcom/audio"                  name="android_hardware_qcom_audio"                  remote="LineageOS" revision="cm-14.1"    />
         <project path="packages/resources/devicesettings"    name="android_packages_resources_devicesettings"    remote="LineageOS" revision="cm-14.1"    />
 
+        <!--
+        <project path="vendor/qcom-opensource/wlan/prima"    name="platform/vendor/qcom-opensource/wlan/prima/"  remote="CODEAURORA" revision="wlan-driver.lnx.1.0.r28-rel"/>
+        <project path="vendor/qcom-opensource/wlan/fw-api"   name="platform/vendor/qcom-opensource/wlan/fw-api/" remote="CODEAURORA" revision="wlan-api.lnx.1.1.r59-rel"/>
+        -->
 
         <project path="external/busybox"               name="android_external_busybox_twrp"        remote="TWRP" revision="android-7.1"/>
         <project path="bootable/recovery-twrp"         name="android_bootable_recovery"            remote="TWRP" revision="android-7.1"/>
