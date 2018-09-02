@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-        <remote name="Nemirtingas" fetch="https://github.com/Nemirtingas9/"      />
+        <remote name="Nemirtingas" fetch="https://github.com/Nemirtingas/"       />
         <remote name="LineageOS"   fetch="https://github.com/LineageOS/"         />
         <remote name="TWRP"        fetch="https://github.com/omnirom/"           />
 
